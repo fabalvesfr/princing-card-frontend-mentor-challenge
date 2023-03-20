@@ -11,6 +11,8 @@ html {
 
 body {
   padding: 20px;
+  display: grid;
+  place-items: center;
 }
 
 h2, h4, p {
