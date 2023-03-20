@@ -1,0 +1,120 @@
+/*CSS restart so that all elements in the HTML document adopt a border-box value to the box-sizing property  */
+html {
+  box-sizing: border-box;
+  font-family: karla;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 20px;
+}
+
+h2, h4, p {
+  margin: 0;
+}
+/* --------------------- */
+
+#card {
+  width: 600px;
+  height: 400px;
+  box-shadow: 5px 4px 15px -2px #2E2E2E;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#top-section {
+  width: 100%;
+  height: 45%;
+  padding: 20px;
+  text-align: left;
+}
+
+#bottom-section {
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+
+#bottom-left-section {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 20px;
+}
+
+#bottom-right-section {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #2EBFBD;
+  padding: 20px;
+}
+
+#top-section h2 {
+  color: #2ab2af;
+  margin: 15px;
+}
+
+#top-section h4 {
+  color: #c0df34;
+  margin: 10px;
+}
+
+#top-section p {
+  color: #98a6bd;
+}
+
+button {
+  color: white;
+  background-color: #c0df34;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 5px 4px 15px -2px #2E2E2E;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #A9C42D;
+  transform: scale(1.02);
+}
+
+#price {
+  font-weight: 700;
+  font-size: 1.4rem;
+  display: inline-block;
+}
+
+#price-frequency {
+  display: inline-block;
+  font-size: 0.8rem;
+  position: relative;
+  top: -3px;
+  opacity: 0.7;
+  margin-left: 5px;
+}
+
+#bottom-left-section h4 {
+  margin-bottom: 25px;
+}
+
+#bottom-left-section p {
+  font-size: 0.8rem;
+  margin-bottom: 40px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  opacity: 0.7;
+  font-size: 0.8rem;
+  line-height: 1.1rem
+}
