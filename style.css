@@ -38,8 +38,6 @@ h2, h4, p {
 #bottom-section {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 55%;
   color: white;
 }
 
